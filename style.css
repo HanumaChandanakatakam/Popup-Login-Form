@@ -9,9 +9,6 @@
  .form{
     height: 100vh;
     width:100% ;
-    background-image: url(./4080.jpg_wh1200.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -125,16 +122,16 @@ form .signup-link a{
 form .signup-link a:hover{
     text-decoration: underline;
 }
-@media(max-width:800px) and (min-width:300px){
+@media(max-width:600px) and (min-width:300px){
     .form{
-        width:600px;
-        
+        width:100%;
+        height:100vh ;
     }
+     
     .container{
         height: 500px;
-width:370px;
-display: flex;
-align-items: center;
-justify-content: center;
-    }
-}
+width:350px;
+
+     }
+   
+} 
