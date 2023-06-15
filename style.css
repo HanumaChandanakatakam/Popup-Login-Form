@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ .form{
+    height: 100vh;
+    width:100% ;
+    background-image: url(./4080.jpg_wh1200.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    }
+    .show_btn{
+        background: white;
+        padding:10px 20px ;
+        font-size:20px ;
+        font-weight:500 ;
+        color: black;
+        cursor: pointer;
+        box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    }
+    .show_btn, .container{
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform: translate(-50%, -50%);
+    }
+    input[type="checkbox"]{
+        display: none;
+    } 
+   .container{
+    display: none;
+    background: 1px solid black;
+   background-color: rgb(87, 179, 216);
+   border-radius: 10px;
+   padding:50px;
+   box-shadow: 4px 2px 15px black;
+  
+   line-height: 30px;
+  
+} 
+#show:checked ~ .container{
+    display: block;
+}
+.container .close_btn{
+    position: absolute;
+    right:20px;
+    top:15px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.container .close_btn{
+    color:#111313;
+}
+.container form .data{
+     width:100%;
+    height:35px; 
+    margin: 40px 10px;
+}
+form .data label{
+    font-weight: bold;
+    font-size: 20px;
+}
+form .data input{
+    width:100%;
+    height:100%;
+    padding-left: 20px;
+    border: 1px solid rgb(87, 75, 75);
+}
+form .forget-password{
+    margin-left: 10px;
+    
+}
+form .forget-password a{
+text-decoration: none;
+color: black;
+}
+
+
+form .forget-password a:hover{
+    text-decoration: underline;
+}
+ form .login{
+margin: 40px 10px ;
+height:45px;
+width:100%;
+position: relative;
+overflow: hidden;
+} 
+
+
+ form .login button{ 
+    height: 40px;
+    width: 100%;
+    background:-webkit-linear-gradient(right,rgb(218, 112, 177),rgb(221, 111, 203),rgb(209, 95, 95),rgb(102, 173, 93));
+border: none;
+z-index: -1;
+left: -100%;
+
+font-size: 20px;
+font-weight: 700;
+
+text-transform: uppercase;
+letter-spacing: 1px;
+cursor: pointer;
+
+} 
+form .signup-link{
+    text-align: center;
+
+    
+}
+form .signup-link a{
+    text-decoration: none;
+    color: rgb(192, 34, 13);
+
+}
+form .signup-link a:hover{
+    text-decoration: underline;
+}
