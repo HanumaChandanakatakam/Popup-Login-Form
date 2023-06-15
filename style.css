@@ -9,6 +9,10 @@
  .form{
     height: 100vh;
     width:100% ;
+    background-color: aliceblue;
+    background-image: url(./4080.jpg_wh1200.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -99,7 +103,7 @@ overflow: hidden;
     background:-webkit-linear-gradient(right,rgb(218, 112, 177),rgb(221, 111, 203),rgb(209, 95, 95),rgb(102, 173, 93));
 border: none;
 z-index: -1;
-left: -100%;
+left: 100%;
 
 font-size: 20px;
 font-weight: 700;
@@ -129,8 +133,8 @@ form .signup-link a:hover{
     }
      
     .container{
-        height: 500px;
-width:350px;
+        height: 460px;
+width:320px;
 
      }
    
