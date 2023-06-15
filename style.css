@@ -125,3 +125,16 @@ form .signup-link a{
 form .signup-link a:hover{
     text-decoration: underline;
 }
+@media(max-width:800px) and (min-width:300px){
+    .form{
+        width:600px;
+        
+    }
+    .container{
+        height: 500px;
+width:370px;
+display: flex;
+align-items: center;
+justify-content: center;
+    }
+}
